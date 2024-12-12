@@ -5,6 +5,6 @@
   "description": "This is our color picker.",
   "action": {
     "default_popup": "colorpicker.html",
-    "default_icon": "eyedropper.svg"
+    "default_icon": "picker.png "
   }
 }
