@@ -3,8 +3,9 @@
   "name": "Codesmith Color Picker",
   "version": "1.0",
   "description": "This is our color picker.",
-  "action": {
-    "default_popup": "colorpicker.html",
-    "default_icon": "picker.png "
-  }
+  "browser_action": {
+    "default_icon": "icon16.png",
+    "default_popup": "colorpicker.html"
+  },
+  "permissions": []
 }
