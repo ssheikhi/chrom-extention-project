@@ -1,0 +1,32 @@
+<html>
+  <head>
+    <title>Login</title>
+    <!-- set up styling for the body and form elements -->
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        width: 200px;
+        padding: 10px;
+      }
+      input {
+        width: 100%;
+        margin: 5px 0;
+        padding: 5px;
+      }
+      button {
+        width: 100%;
+        padding: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Login</h3>
+    <form id="loginForm">
+      <input type="text" id="username" placeholder="Username" required />
+      <input type="password" id="password" placeholder="Password" required />
+      <button type="submit">Login</button>
+    </form>
+    <p id="status"></p>
+    <script src="login.js"></script>
+  </body>
+</html>

@@ -1,10 +1,23 @@
 {
   "manifest_version": 3,
-  "name": "Codesmith Color Picker",
+  "name": "Da Pickr",
   "version": "1.0",
-  "description": "This is our color picker.",
+  "description": "The World's Greatest Color Picker.",
+  "permissions": ["storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": ["https://*/*", "http://*/*"],
   "action": {
-    "default_icon": "icon16.png",
-    "default_popup": "colorpicker.html"
-  }
+    "default_icon": "female_hand_snake.png",
+    "default_popup": "login.html",
+    "default_title": "Da Pickr"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*/*", "http://*/*"],
+      "js": ["colorpicker.js"],
+      "run_at": "document_end"
+    }
+  ]
 }
