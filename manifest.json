@@ -7,9 +7,4 @@
     "default_icon": "icon16.png",
     "default_popup": "colorpicker.html"
   }
-  //   ,
-  //   "background": {
-  //     "service_worker": "background.js"
-  //   },
-  //   "permissions": ["activeTab"]
 }
